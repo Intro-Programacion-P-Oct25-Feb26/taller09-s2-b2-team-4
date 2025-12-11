@@ -20,12 +20,12 @@ public class Ejercicio06 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
-        double[] precios = {1.5, 2.1, 2.3};
+         double[] precios = {1.5, 2.1, 2.3};
         int[] tazasCompradas = new int[3];
         int opcion;
         int continuar = 1;
-        String[] nombres = {"Café tradicional", "Café francés", "Café alemán"};
-
+        String[] nombres = {"Café tradicional","Café francés","Café alemán"};
+        
         while (continuar == 1) {
             System.out.println("\nSeleccione el producto que desea comprar:");
             for (int i = 0; i < nombres.length; i++) {
@@ -43,7 +43,7 @@ public class Ejercicio06 {
                 continue;
             }
 
-            System.out.printf("¿Cuántas tazas de %s desea?\n",
+            System.out.printf("¿Cuántas tazas de %s desea?\n", 
                     nombres[opcion]);
             int tazas = entrada.nextInt();
 
