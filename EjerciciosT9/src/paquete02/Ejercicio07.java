@@ -30,7 +30,8 @@ public class Ejercicio07 {
 
         for (int i = 0; i < numeros.length; i++) {
             double diferencia = promedio - numeros[i];
-            System.out.printf("  %.2f - %.2f = %.2f\n", numeros[i], promedio, diferencia);
+            System.out.printf("  %.2f - %.2f = %.2f\n", numeros[i], promedio, 
+                    diferencia);
         }
     }
 }
