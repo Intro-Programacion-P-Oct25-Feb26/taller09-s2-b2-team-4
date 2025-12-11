@@ -18,7 +18,7 @@ public class Ejercicio07 {
         double[] numeros = new double[10];
         double suma = 0;
         for (int i = 0; i < numeros.length; i++) {
-            System.out.printf("Ingrese el valor para posicion %d\n ", i + 1);
+            System.out.printf("Ingrese el valor para posicion %d\n", i + 1);
             numeros[i] = entrada.nextDouble();
             suma += numeros[i];
         }

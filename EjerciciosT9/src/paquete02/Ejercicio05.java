@@ -25,7 +25,8 @@ public class Ejercicio05 {
         String[] dias = {"Lunes", "Martes", "Miércoles", "Jueves", "Viernes"};
 
         for (int i = 0; i < ventas.length; i++) {
-            System.out.printf("Ingrese ventas para %s\n", dias[i]);
+            System.out.printf("Ingrese el valor de las ventas del dia %s\n",
+                    dias[i]);
             ventas[i] = entrada.nextInt();
         }
 
