@@ -1,6 +1,7 @@
 /*
 Arturo Angamarca 
 Daniel Rios
+Rene Elizalde 
  */
 package paquete02;
 
